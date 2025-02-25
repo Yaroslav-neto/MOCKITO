@@ -15,6 +15,7 @@ class FilmsManagerAddFilmsTest {
     @Test
     void shouldFindAll() {
         FilmsManager repo = new FilmsManager();
+
         repo.add(item1);
         repo.add(item2);
         repo.add(item3);
@@ -31,6 +32,7 @@ class FilmsManagerAddFilmsTest {
     @Test
     void shouldFindFiveAdd() {
         FilmsManager repo = new FilmsManager();
+
         repo.add(item1);
         repo.add(item2);
         repo.add(item3);
@@ -46,6 +48,7 @@ class FilmsManagerAddFilmsTest {
     @Test
     void shouldFindOneAdd() {
         FilmsManager repo = new FilmsManager();
+
         repo.add(item1);
 
         FilmsItem[] expected = {item1};
